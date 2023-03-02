@@ -26,7 +26,4 @@ public class Circle extends Shape {
     public double getRadio() {
         return radio;
     }
-    public String draw(){
-        return "○";
-    }
 }

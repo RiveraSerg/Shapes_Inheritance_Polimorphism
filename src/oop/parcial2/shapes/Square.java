@@ -1,12 +1,10 @@
 package oop.parcial2.shapes;
-
 public class Square extends Shape {
     private double side;
 
     public Square(){
         super("Cuadrado", 4);
     }
-
     public Square(double side) {
         this();
         this.side = side;
@@ -14,7 +12,6 @@ public class Square extends Shape {
     public String toString(){
         return "■";
     }
-
     public double getArea(){
         return side * side;
     }
@@ -30,5 +27,4 @@ public class Square extends Shape {
     public void setSide(double side) {
         this.side = side;
     }
-
 }

@@ -1,5 +1,4 @@
 package oop.parcial2.shapes;
-
 public class Rectangle extends Shape {
     private double base;
     private double height;
@@ -7,15 +6,13 @@ public class Rectangle extends Shape {
     public Rectangle(){
         super("Rectangulo", 4);
     }
-
     public Rectangle(double base, double height) {
         this();
         this.base = base;
         this.height = height;
     }
-    public String toString(){
-        return "█";
-    }
+    public String toString(){return "█";}
+
     public double getArea(){
         return base * height;
     }
@@ -38,8 +35,5 @@ public class Rectangle extends Shape {
 
     public void setHeight(double height) {
         this.height = height;
-    }
-    public String draw(){
-        return "█";
     }
 }
